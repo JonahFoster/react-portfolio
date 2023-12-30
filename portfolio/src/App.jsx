@@ -3,6 +3,7 @@ import Projects from './Projects.jsx'
 import About from './About.jsx'
 import Contact from './Contact.jsx'
 import Footer from './Footer.jsx'
+import ScrollToTopButton from './ScrollToTopButton.jsx'
 export default function App() {
 
   return (
@@ -14,6 +15,7 @@ export default function App() {
       </main>
       <Contact />
       <Footer />
+      <ScrollToTopButton />
     </div>
   )
 }
