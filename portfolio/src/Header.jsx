@@ -21,7 +21,7 @@ export default function Header() {
                     <h1 className="heading-primary">
                         <span>Jonah Foster</span>
                     </h1>
-                    <p>Full-Stack Developer</p>
+                    <p>Where imagination meets technology</p>
                     <a href="#contact" className="btn btn--pink">Get in touch</a>
                 </div>
             </div>
