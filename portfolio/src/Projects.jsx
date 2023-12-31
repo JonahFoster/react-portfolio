@@ -13,7 +13,7 @@ export default function Projects() {
         {
             title: "College Baseball Stats",
             img: collegeBaseball,
-            description: "A site containing the stats from every college baseball player since 2020. My first solo full-stack project, I went through many iterations on the architecture of the site until ending with a React.js frontend with Firebase handling the backend.",
+            description: "A site containing the stats from every college baseball player since 2020. My first solo full-stack project, I went through many iterations on the architecture of the site until ending with a React.js frontend with Firebase handling the backend. Stats are collected using the college-baseball Python library.",
             attributeList: ["React", "Firebase", "MaterialUI", "Python"],
             siteLink: "https://college-baseball-stats.web.app/",
             githubLink: "https://github.com/JonahFoster/college-baseball-frontend",
