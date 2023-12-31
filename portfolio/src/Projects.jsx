@@ -1,7 +1,7 @@
 import moviePickerImg from './assets/popchoice.jpg'
 import planetsImg from './assets/planetsapp.jpg'
 import hologramImg from './assets/Jonah Foster Hologram.jpg'
-import collegeBaseball from './assets/Jonah Foster College Baseball Stats'
+import collegeBaseball from './assets/jonah foster college baseball stats.jpg'
 import githubIcon from './assets/github.svg'
 import PropTypes from 'prop-types'
 import { motion } from 'framer-motion'
