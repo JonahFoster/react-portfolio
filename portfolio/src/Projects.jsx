@@ -1,6 +1,7 @@
 import moviePickerImg from './assets/popchoice.jpg'
 import planetsImg from './assets/planetsapp.jpg'
 import hologramImg from './assets/Jonah Foster Hologram.jpg'
+import collegeBaseball from './assets/Jonah Foster College Baseball Stats'
 import githubIcon from './assets/github.svg'
 import PropTypes from 'prop-types'
 import { motion } from 'framer-motion'
@@ -9,6 +10,14 @@ import { useInView } from 'react-intersection-observer'
 export default function Projects() {
 
     const projects = [
+        {
+            title: "College Baseball Stats",
+            img: collegeBaseball,
+            description: "A site containing the stats from every college baseball player since 2020. My first solo full-stack project, I went through many iterations on the architecture of the site until ending with a React.js frontend with Firebase handling the backend.",
+            attributeList: ["React", "Firebase", "MaterialUI", "Python"],
+            siteLink: "https://college-baseball-stats.web.app/",
+            githubLink: "https://github.com/JonahFoster/college-baseball-frontend",
+        },
         {
             title: "Movie Picker",
             img: moviePickerImg,
