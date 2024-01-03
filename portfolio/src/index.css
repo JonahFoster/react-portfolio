@@ -429,6 +429,8 @@ body:not(.user-is-tabbing) a:focus {
 @media(max-width: 500px) {
     .header {
         text-align: center;
+        background: linear-gradient(rgba(0,0,0, .8), rgba(0,0,0, .9)), 
+        url('./assets/header-mobile.jpg');
     }
 
     .header .row {
