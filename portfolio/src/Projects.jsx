@@ -4,6 +4,7 @@ import hologramImg from "./assets/Jonah Foster Hologram.jpg";
 import collegeBaseball from "./assets/jonah foster college baseball stats.jpg";
 import githubIcon from "./assets/github.svg";
 import gnvWebDesign from "./assets/gnv-web-design.jpg";
+import catalyst from "./assets/gainesville-web-design-catalyst-consulting-mockup.webp"
 import PropTypes from "prop-types";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
@@ -20,6 +21,15 @@ export default function Projects() {
       githubLink: "",
     },
     {
+      title: "Catalyst Consulting",
+      img: catalyst,
+      description:
+        "A full website built for a consulting agency going through a comprehensive rebrand. The site was fully designed and developed by me, with a focus on a clean aesthetic and smooth performance. Using primarily Astro and only React when necessary allows the site to have incredible PageSpeed scores.",
+      attributeList: ["Astro", "React", "Tailwind", "Framer Motion"],
+      siteLink: "https://catalyticeffects.com/",
+      githubLink: "",
+    },
+    {
       title: "College Baseball Stats",
       img: collegeBaseball,
       description:
@@ -28,6 +38,9 @@ export default function Projects() {
       siteLink: "https://college-baseball-stats.web.app/",
       githubLink: "https://github.com/JonahFoster/college-baseball-frontend",
     },
+  ];
+
+  const oldProjects = [
     {
       title: "Movie Picker",
       img: moviePickerImg,
